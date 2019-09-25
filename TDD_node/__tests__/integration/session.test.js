@@ -11,4 +11,14 @@ describe('Authentication', () => {
 
     expect(sum).toBe(6)
   });
+
+  it('sum three numbers ', () => {
+    const x = 2;
+    const y = 4;
+    const z = 6;
+
+    const sum = x + y + z;
+
+    expect(sum).toBe(12)
+  });
 })
